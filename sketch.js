@@ -16,9 +16,8 @@ function setup() {
   x = 300;
   ellipse(x * 150, 100, 50, 50);
   */
-  for (var x = 1; x <=3; x++)
-  {
-    ellipse(x * 100, 100, 50, 50);
-  
-
+for (var x = 1; x <=3; x++)
+{
+  ellipse(x * 100, 100, 50, 50);
+}
 }
