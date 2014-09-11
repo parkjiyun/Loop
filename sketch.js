@@ -16,9 +16,11 @@ function setup() {
   ellipse(x * 150, 100, 50, 50);
   */
 
-
+function draw () {
 for (var x = 1; x <=8; x++)
 {
-  ellipse(x * 70, x * 20 + 100, 50, 50);
+  ellipse(x * 70, x * 20 + 100, 10 + x * 3, 20 + x * 10);
 }
+var size = Math, abs(mouseX - 320);
+ellipse(320, 240, size, size);
 }
